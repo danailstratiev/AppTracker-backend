@@ -1,5 +1,6 @@
 ﻿using AppTracker.Data.Common;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace AppTracker.Data.Models
 {
@@ -12,9 +13,11 @@ namespace AppTracker.Data.Models
         public int ModifierId { get; set; }
 
         public ApplicationUser Modifier { get; set; }
-
+        
+        [Required]
         public Status Status { get; set; }
 
-        public string MyProperty { get; set; }
+        [StringLength(20, MinimumLength = 2)]
+        public string Version { get; set; }
     }
 }

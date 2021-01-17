@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data.Common", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data", "Data\AppTracker.Data\AppTracker.Data.csproj", "{08CE71E9-E8AF-4F3A-A544-1B142404F412}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Web", "Web\AppTracker.Web\AppTracker.Web.csproj", "{B8B33475-29B4-4FB6-A81D-D1A44B608185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{71D38291-625E-40DF-9F4C-BE7314F25887}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{08CE71E9-E8AF-4F3A-A544-1B142404F412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08CE71E9-E8AF-4F3A-A544-1B142404F412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08CE71E9-E8AF-4F3A-A544-1B142404F412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B33475-29B4-4FB6-A81D-D1A44B608185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B33475-29B4-4FB6-A81D-D1A44B608185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B33475-29B4-4FB6-A81D-D1A44B608185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B33475-29B4-4FB6-A81D-D1A44B608185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{D044F676-55BB-421E-BD33-3AB407A7C0E0} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
 		{55BF6E00-C6B9-4D68-AC41-48F91C229A0C} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
 		{08CE71E9-E8AF-4F3A-A544-1B142404F412} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
+		{B8B33475-29B4-4FB6-A81D-D1A44B608185} = {71D38291-625E-40DF-9F4C-BE7314F25887}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {777D8410-DC8F-4D5D-BF31-BEB66ECD49BE}

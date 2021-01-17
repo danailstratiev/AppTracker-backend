@@ -4,8 +4,14 @@ using System;
 
 namespace AppTracker.Data
 {
-    public class AppTrackerContext: DbContext
+    public class AppTrackerDbContext: DbContext
     {
+        public AppTrackerDbContext(DbContextOptions<AppTrackerDbContext> options)
+            : base(options)
+        {
+
+        }
+
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         public DbSet<TrackedItem> TrackedItems { get; set; }

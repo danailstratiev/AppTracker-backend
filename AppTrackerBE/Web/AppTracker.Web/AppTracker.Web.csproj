@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\AppTracker.Data.Common\AppTracker.Data.Common.csproj" />
+    <ProjectReference Include="..\..\Data\AppTracker.Data.Models\AppTracker.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Data\AppTracker.Data\AppTracker.Data.csproj" />
+  </ItemGroup>
+
+</Project>
