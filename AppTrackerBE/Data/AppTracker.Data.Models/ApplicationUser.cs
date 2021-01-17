@@ -18,7 +18,7 @@ namespace AppTracker.Data.Models
         public string Username { get; set; }
 
         [Required]
-        [RegularExpression("^[a-z0-9_\\+-]+(\\.[a-z0-9_\\+-]+)*@[a-z0-9-]+(\\.[a-z0-9]+)*\\.([a-z]{2,4})$", ErrorMessage = "Invalid email format.")]
+        [RegularExpression("^[a-z0-9_\\+-]+", ErrorMessage = "Invalid password format.")]
         public string Password { get; set; }
 
         public Role Role { get; set; }

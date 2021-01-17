@@ -4,14 +4,16 @@ using AppTracker.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AppTracker.Data.Migrations
 {
     [DbContext(typeof(AppTrackerDbContext))]
-    partial class AppTrackerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210117111343_upgrade")]
+    partial class upgrade
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -105,11 +107,6 @@ namespace AppTracker.Data.Migrations
 
                     b.Property<int>("ModifierId")
                         .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");

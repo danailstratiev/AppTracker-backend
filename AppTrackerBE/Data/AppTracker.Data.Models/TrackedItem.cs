@@ -6,6 +6,10 @@ namespace AppTracker.Data.Models
 {
     public class TrackedItem: BaseDeletableModel<int>
     {
+        [Required]
+        [StringLength(50, MinimumLength = 6)]
+        public string Name { get; set; }
+
         public int ModifierId { get; set; }
 
         public ApplicationUser Modifier { get; set; }
