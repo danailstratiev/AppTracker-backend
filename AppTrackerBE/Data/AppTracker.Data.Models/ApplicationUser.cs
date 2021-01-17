@@ -18,6 +18,10 @@ namespace AppTracker.Data.Models
         public string Username { get; set; }
 
         [Required]
+        [StringLength(30, MinimumLength = 7)]
+        public string Email { get; set; }
+
+        [Required]
         [RegularExpression("^[a-z0-9_\\+-]+", ErrorMessage = "Invalid password format.")]
         public string Password { get; set; }
 

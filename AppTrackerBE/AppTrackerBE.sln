@@ -5,15 +5,19 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{983C9812-BC7B-4880-A8D8-0ED088840D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data.Models", "Data\AppTracker.Data.Models\AppTracker.Data.Models.csproj", "{D044F676-55BB-421E-BD33-3AB407A7C0E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTracker.Data.Models", "Data\AppTracker.Data.Models\AppTracker.Data.Models.csproj", "{D044F676-55BB-421E-BD33-3AB407A7C0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data.Common", "Data\AppTracker.Data.Common\AppTracker.Data.Common.csproj", "{55BF6E00-C6B9-4D68-AC41-48F91C229A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTracker.Data.Common", "Data\AppTracker.Data.Common\AppTracker.Data.Common.csproj", "{55BF6E00-C6B9-4D68-AC41-48F91C229A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data", "Data\AppTracker.Data\AppTracker.Data.csproj", "{08CE71E9-E8AF-4F3A-A544-1B142404F412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTracker.Data", "Data\AppTracker.Data\AppTracker.Data.csproj", "{08CE71E9-E8AF-4F3A-A544-1B142404F412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Web", "Web\AppTracker.Web\AppTracker.Web.csproj", "{B8B33475-29B4-4FB6-A81D-D1A44B608185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTracker.Web", "Web\AppTracker.Web\AppTracker.Web.csproj", "{B8B33475-29B4-4FB6-A81D-D1A44B608185}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{71D38291-625E-40DF-9F4C-BE7314F25887}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BE8BC239-D15C-468B-BBC3-68B143BB7658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Services", "Services\AppTracker.Services\AppTracker.Services.csproj", "{B74CAA9A-E4E9-4954-B032-FE95E7629ABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{B8B33475-29B4-4FB6-A81D-D1A44B608185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B33475-29B4-4FB6-A81D-D1A44B608185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B33475-29B4-4FB6-A81D-D1A44B608185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74CAA9A-E4E9-4954-B032-FE95E7629ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74CAA9A-E4E9-4954-B032-FE95E7629ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74CAA9A-E4E9-4954-B032-FE95E7629ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74CAA9A-E4E9-4954-B032-FE95E7629ABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{55BF6E00-C6B9-4D68-AC41-48F91C229A0C} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
 		{08CE71E9-E8AF-4F3A-A544-1B142404F412} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
 		{B8B33475-29B4-4FB6-A81D-D1A44B608185} = {71D38291-625E-40DF-9F4C-BE7314F25887}
+		{B74CAA9A-E4E9-4954-B032-FE95E7629ABA} = {BE8BC239-D15C-468B-BBC3-68B143BB7658}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {777D8410-DC8F-4D5D-BF31-BEB66ECD49BE}
