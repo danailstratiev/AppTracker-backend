@@ -16,6 +16,11 @@ namespace AppTracker.Data
 
         public DbSet<TrackedItem> TrackedItems { get; set; }
 
-        public DbSet<ApplicationLog> applicationLogs { get; set; }
+        public DbSet<ApplicationLog> ApplicationLogs { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=AppTrackerDb;Trusted_Connection=true");
+        }
     }
 }
