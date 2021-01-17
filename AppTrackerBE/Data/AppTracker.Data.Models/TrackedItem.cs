@@ -14,5 +14,7 @@ namespace AppTracker.Data.Models
         public ApplicationUser Modifier { get; set; }
 
         public Status Status { get; set; }
+
+        public string MyProperty { get; set; }
     }
 }

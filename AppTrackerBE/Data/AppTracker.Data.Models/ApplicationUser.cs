@@ -8,7 +8,8 @@ namespace AppTracker.Data.Models
     {
         public ApplicationUser()
         {
-           
+            this.TrackedItems = new List<TrackedItem>();
+            this.ApplicationLogs = new List<ApplicationLog>();
         }
 
         public string Username { get; set; }
@@ -18,5 +19,7 @@ namespace AppTracker.Data.Models
         public Role Role { get; set; }
 
         public ICollection<TrackedItem> TrackedItems { get; set; }
+
+        public ICollection<ApplicationLog> ApplicationLogs { get; set; }
     }
 }

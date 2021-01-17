@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data.Models", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data.Common", "Data\AppTracker.Data.Common\AppTracker.Data.Common.csproj", "{55BF6E00-C6B9-4D68-AC41-48F91C229A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.Data", "Data\AppTracker.Data\AppTracker.Data.csproj", "{08CE71E9-E8AF-4F3A-A544-1B142404F412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{55BF6E00-C6B9-4D68-AC41-48F91C229A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55BF6E00-C6B9-4D68-AC41-48F91C229A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55BF6E00-C6B9-4D68-AC41-48F91C229A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CE71E9-E8AF-4F3A-A544-1B142404F412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CE71E9-E8AF-4F3A-A544-1B142404F412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CE71E9-E8AF-4F3A-A544-1B142404F412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CE71E9-E8AF-4F3A-A544-1B142404F412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D044F676-55BB-421E-BD33-3AB407A7C0E0} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
 		{55BF6E00-C6B9-4D68-AC41-48F91C229A0C} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
+		{08CE71E9-E8AF-4F3A-A544-1B142404F412} = {983C9812-BC7B-4880-A8D8-0ED088840D0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {777D8410-DC8F-4D5D-BF31-BEB66ECD49BE}
